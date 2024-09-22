@@ -21,39 +21,39 @@
       </header>
       <div class="mort amount">
         <form>
-          <label>Mortgage Amount</label>
+          <label for="input-amount">Mortgage Amount</label>
           <br>
-          <input type="number">
+          <input type="number" id="input-amount">
         </form>
       </div>
       <div class="mort term-rate">
         <form>
-          <label>Mortgage Term</label>
+          <label for="input-term">Mortgage Term</label>
           <br>
-          <input type="number">
+          <input type="number" id="input-term">
         </form>
         <form>
-          <label>Interest Rate</label>
+          <label for="input-rate">Interest Rate</label>
           <br>
-          <input type="number">
+          <input type="number" id="input-rate">
         </form>
       </div>
       <div class="mort type">
         <form>
-          <label>Mortgage Type</label>
+          <label for="input-type">Mortgage Type</label>
           <br>
-          <input type="radio">
+          <input type="radio" id="input-type">Repayment
           <br>
-          <input type="radio">
+          <input type="radio" id="input-type">Interest Only
         </form>
       </div>
       <footer>
-        <button><img src="./assets/images/icon-calculator.svg">Calculate Repayments</button>
+        <button><img src="./assets/images/icon-calculator.svg" alt="calculation button">Calculate Repayments</button>
       </footer>
     </section>
     <section class="results">
       <div class="results1">
-        <img src="./assets/images/illustration-empty.svg">
+        <img src="./assets/images/illustration-empty.svg" alt="calculator picture">
         <h1>Results shown here</h1>
         <p>Complete the form and click "calculate repayments" to see what your monthly repayments would be.</p>
       </div>
@@ -61,12 +61,12 @@
         <h1>Your results</h1>
         <p>Your results are shown below based on the information you provided. To adjust the results, edit the form and
           click "calculate repayments" again.</p>
-        <div>
+        <div class="total-payment">
           <p>Your monthly repayments</p>
-          <div>£1,797.74</div>
+          <div class="monthly-pay">£1,797.74</div>
           <hr>
           <p>Total you'll repay over the term</p>
-          <div>£539,322.94</div>
+          <div class="total-pay">£539,322.94</div>
         </div>
       </div>
     </section>
