@@ -66,34 +66,34 @@ body {
     font-weight: 700;
 }
 
-.results1 {
+#results1 {
     background-color: var(--Slate-900);
     color: var(--White);
     padding: 30px 25px;
     text-align: center;
 }
 
-.results1 h1 {
+#results1 h1 {
     margin-bottom: 20px;
 }
 
-.results1 p {
+#results1 p {
     color: var(--Slate-300);
 }
 
-.results2 {
+#results2 {
     display: none;
     background-color: var(--Slate-900);
     color: var(--White);
     padding: 30px 25px;
 }
 
-.results2 h1 {
+#results2 h1 {
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-.results2 p {
+#results2 p {
     color: var(--Slate-300);
     margin-bottom: 20px;
     line-height: 1.5;
@@ -157,7 +157,7 @@ body {
         font-size: 14px;
     }
 
-    .results1 {
+    #results1 {
         height: 550px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
@@ -165,27 +165,27 @@ body {
         padding: 100px 20px;
     }
 
-    .results1 h1 {
+    #results1 h1 {
         font-size: 20px;
     }
 
-    .results1 p {
+    #results1 p {
         font-size: 12px;
         line-height: 1.5;
     }
 
-    .results2 {
+    #results2 {
         height: 550px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 60px;
     }
 
-    .results2 h1 {
+    #results2 h1 {
         font-size: 20px;
     }
 
-    .results2 p {
+    #results2 p {
         font-size: 14px;
         line-height: 1.5;
     }
